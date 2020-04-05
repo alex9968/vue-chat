@@ -8,7 +8,10 @@
         class="logo"
       />
       <h1>Welcome to Vue.js</h1>
+      <h1>Welcome to Vue.js</h1>
+      <h1>Welcome to Vue.js</h1>
     </div>
+    <router-view></router-view>
     <div class="bottom">
       To get started, edit <code>./src/components/App.vue</code> and save to reload.<br/>
       <span class="fade">
@@ -35,10 +38,6 @@
     white-space: pre-wrap;
     color: #2c3e50;
   }
-
-  code::before, code::after {
-    content: '`';
-  }
 </style>
 
 <!-- Scoped component css -->
@@ -52,30 +51,5 @@
     color: #2c3e50;
     font-weight: 300;
     margin: 0;
-  }
-
-  .banner {
-    height: 200px;
-    background-color: #f6f6f6;
-    padding: 50px 10px;
-  }
-
-  .bottom {
-    padding: 80px 10px;
-    font-size: 24px;
-    font-weight: 300;
-  }
-
-  .fade {
-    font-size: 14px;
-  }
-
-  .logo {
-    animation: spin 4s 1s infinite linear
-  }
-
-  @keyframes spin {
-    from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
   }
 </style>
